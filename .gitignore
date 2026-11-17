@@ -7,10 +7,6 @@ env/
 __pycache__/
 *.pyc
 
-# Training checkpoints (large files)
-checkpoints/
-experiment/
-
 # Generated outputs
 outputs/
 results/
