@@ -7,7 +7,15 @@ env/
 __pycache__/
 *.pyc
 
-# Generated outputs
+# Ignore all checkpoints by default
+*.pth
+
+# But keep the deployment model
+!experiment/
+!experiment/big_dataset/
+!experiment/big_dataset/checkpoint_84.pth
+
+# Outputs
 outputs/
 results/
 
